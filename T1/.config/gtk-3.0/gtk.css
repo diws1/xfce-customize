@@ -1,0 +1,362 @@
+/*
+; ______________
+; |  \o| . ||__   https://github.com/diws1
+; |__/||_|_| __|  https://youtube.com/@diws
+;
+; XFCE Theme 1 (T1)
+; Please read this instructions !!!
+
+If when implementing the panel color looks a little messy, you can follow these instructions:
+Panel Settings
+	Row size: 38px
+	Length: 1336px
+	Fixed icon size: 35px
+	Background: #000000 (opacity 30%)
+	Clock Font: 
+		Date: Roboto Medium 8
+		Time: Roboto Regular 9
+
+Appearance
+	Theme: Ant-Nebula
+	Icons: Tela-circle
+	Default Font: JetBrains Mono Regular 8
+	WM Theme: Ant-Nebula
+	Title Font: JetBrains Mono Medium 8
+
+Note: Some items have launcher-id, for ex: #pager-32, #launcher-10, etc. 
+The launcher ID is obtained by hovering the mouse over the plugin in the panel properties.
+
+Panel Structure
+------------------------------------------------------------
+| Menu 1 2 3 |	|	oooooooot	|	b n s Date |
+------------------------------------------------------------ */
+
+
+
+/*_-_-_-_-_-_-_-_-_-_ GLOBAL SETTINGS _-_-_-_-_-_-_-_-_-_*/
+
+.xfce4-panel {
+        font-family: 'Roboto Regular';
+        font-size: 10px;
+} 
+
+
+
+/*_-_-_-_-_-_-_-_-_-_ LEFT ITEMS _-_-_-_-_-_-_-_-_-_*/
+
+/*Whisker Menu*/
+#whiskermenu-button {
+        margin: 4px;
+}
+#whiskermenu-button:hover {
+	background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+}
+#whiskermenu-button image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.8); margin: -10px;
+}
+
+
+/*Workspace*/
+#pager-32 #xfce-panel-toggle-button {
+	color: #f9f9f9;
+	margin: 4px;
+	padding: 2px;
+}
+#pager-32 #xfce-panel-toggle-button:checked {
+        background: #c5c8c6; opacity: 0.5;
+	color: #282828;
+	border-color: #c5c8c6;
+	border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 2px;
+}
+#pager-32 #xfce-panel-toggle-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+	border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin-top: 5px;	
+	margin-bottom: 10px;
+	padding: 2px;
+}
+
+
+
+/*_-_-_-_-_-_-_-_-_-_ CENTER ITEMS _-_-_-_-_-_-_-_-_-_*/
+
+/*All Launcher*/ 
+#launcher-10 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-10 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-10 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-11 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-11 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-11 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-12 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-12 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-12 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-13 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-13 image {
+	-gtk-icon-theme: 'Tela-circle'; }
+#launcher-13 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-14 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-14 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-14 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-15 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-15 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-15 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-16 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-16 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-16 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+#launcher-17 #launcher-arrow:hover {
+        background: #c5c8c6; opacity: 0.9; 
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 2px; 
+}
+#launcher-17 image {
+	-gtk-icon-theme: 'Tela-circle'; 
+}
+#launcher-17 #launcher-arrow:hover image {
+        -gtk-icon-transform: scale(0.7); 
+}
+
+
+/*Window Buttons*/
+.xfce4-panel .tasklist .toggle {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 5px;
+        padding: 5px;
+}
+.xfce4-panel .tasklist .toggle:checked {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+	margin: 2px;
+	padding: 0px;
+}
+.xfce4-panel .tasklist .toggle:hover {
+        background: #c5c8c6; opacity: 0.9;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 0px;
+}
+.tasklist .toggle image {
+        -gtk-icon-transform: scale(0.5);
+}
+.tasklist .toggle:checked image {
+        -gtk-icon-transform: scale(0.9);
+}
+.tasklist .toggle:hover image {
+        -gtk-icon-transform: scale(0.8);
+}
+
+
+
+/*_-_-_-_-_-_-_-_-_-_ RIGHT ITEMS _-_-_-_-_-_-_-_-_-_*/
+
+/*Battery*/
+#xfce4-power-manager-plugin {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-power-manager-plugin:hover {
+        background: #c5c8c6; opacity: 0.9;
+        color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-power-manager-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4) rotate(90deg); margin:-10px;
+}
+
+
+/*Notification*/
+#xfce4-notification-plugin {
+	color: #f9f9f9;
+        margin: 4px;
+	padding: 5px;
+}
+#xfce4-notification-plugin:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#xfce4-notification-plugin image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4); margin: -10px;
+}
+
+
+/*Sound*/
+#pulseaudio-button {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+#pulseaudio-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
+#pulseaudio-button image {
+	-gtk-icon-theme: 'Tela-circle';
+        -gtk-icon-transform: scale(0.4); margin: -10px;
+}
+
+
+/*Clock*/
+#clock-button {
+	color: #f9f9f9;
+        margin: 4px;
+        padding: 5px;
+}
+
+#clock-button:hover {
+        background: #c5c8c6; opacity: 0.9;
+	color: #282828 ;
+	border-color: #c5c8c6;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        margin: 4px;
+        padding: 5px;
+}
