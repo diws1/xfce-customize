@@ -1,5 +1,5 @@
 ## Preview
-<i>Theme 1 (T1)</i>
+<b>Theme 1 (T1)</b>
 ![My Image](https://github.com/diws1/xfce-customize/blob/main/T1/screenshot/xfce%20T1.png)
 
 #### Details
